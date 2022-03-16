@@ -1,114 +1,29 @@
 ---
-title: Markdown Slot 4
-date: 2019-2-26
-tags: 
-  - markdown
-  - vuepress
-author: John Doe
-featuredimg: https://images.unsplash.com/photo-1566224425427-998503a013f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=898&q=80
-summary: Implementing markdown files, provders of metadata.
+title: متابعه الحمل
+date: 2022-03-16 16:00:00 +0200
+tags: []
+author: mahdmoud
+featuredimg: "/assets/img/متابعه الحمل.jpg"
+summary: متابعه الحمل لتفادي مشاكله ضروري جدا لكل سيدة حامل حتي تصل الي بر الامان
+  وتلد مولودها بأمان
+
 ---
+متابعه الحمل تعتبر فترة الحمل من أهم الفترات في حياة جميع النساء، حيث أن الأزواج الجدد يكونوا في حيرة ودهشة كبيرة عند سماع خبر الحمل لأول مرة، كما تحتاج العديد من الدعم والمساعدة من الأهل وغيرهم من الأصدقاء؛ كما يجب أن تأخذي في الاعتبار ما مدى أهمية متابعة الحمل بصورة منتظمة مع الدكتور المتخصص حتى تتمكن من التشخيص المبكر لأي مشاكل صحية يمكن حدوثها خلال فترة الحمل مشاكل صحية يمكن حدوثها أثناء فترة الحمل سواء كانت لك أو للطفل الجنين وللتعرف على التاريخ العائلي لأي أمراض وراثية، وهذا عند إجراء زيادة فرص ثبات الحمل وإنجاب مولود معافى تماما بشكل سليم.
 
-VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.
+## متابعه الحمل
 
-## Why do I need Markdown Slot?
+كما تبدأ معظم النساء في متابعة الحمل من الأسبوع 12 أي الشهر الثالث تقريبا ومن ثم كل أسبوعين أو شهر على حسب حالة المرأة الحامل وماهي ظروفها حتى الأسبوع 40 الذي تتم الولادة فيه في بعض الحالات أو الحمل لأول مرة أو الأسبوع 38 الذي وفي العادة تلد فيه معظم السيدات الحوامل، أما في الحمل الثاني تكون زياراته أقل للطبيب.
 
-First, let's review the relationship between layout components and markdown files:
+## متابعة الحمل خلال الشهور الأولى
 
-<diagram-markdown-slot-relationship/>
+كما يقوم الطبيب أثناء الزيارة الأولى للسيدة الحامل من أجل التعرف على الوقت الطبي والعائلي الذي يخص السيدة الحامل، ومن أجل معرفة ما إذا كانت تعاني المريضة من أي أمراض في السابق أو حدوث إجهاض سابق أو أي مشاكل صحية وغيرها.
 
-Markdown files are providers of metadata (Page content, Configuration, etc.), while layout components consume them. We can use `frontmatter` to define some metadata for common data types, but `frontmatter` is hard to do something about markdown / HTML, a complex metadata that involves differences before and after compilation.
+ويتم تحديد باقي موعد الزيارات من أجل الاطمئنان على الأم والجنين، والتأكد أيضا من نبض الجنين وضغط الدم الخاص بالأم، وزن الأم، وإجراء تحليل كامل للدم للتأكد من عدم وجود أنيميا.
 
-Markdown Slot is to solve this kind of problem.
+## متابعة الحمل أثناء الفترة الأولى من حدوث الحمل
 
-## Named Slots
+خلال هذه الزيارات فإنها تتم بشكل سريع من الفترة الأولى حيث يتم من خلالها قياس وزن الأم، وضغط الدم، وأيضا نبض الجنين، والتعرف على أي أعراض تعاني منها السيدة الحامل، وللتأكد من الاستمرار في أخذ بعض من الفيتامينات والمكملات الغذائية، وزن الجنين وطوله للتأكد من نموه بشكل صحيح.
 
-You can define a named markdown slot through the following markdown syntax:
+## كيف تكون متابعة الحمل في الفترة الأخيرة من الحمل
 
-``` md
-::: slot name
-
-:::
-```
-
-Use the `Content` component to use the slot in the layout component:
-
-``` vue
-<Content slot-key="name"/>
-```
-
-::: tip
-Here we are using `slot-key` instead of `slot`, because in Vue, `slot` is a reserved prop name.
-:::
-
-## Default Slot Content
-
-By default, the slot-free part of a markdown file becomes the default content of a markdown slot, which you can access directly using the `Content` component:
-
-``` vue
-<Content/>
-```
-
-## Example
-
-Suppose your layout component is as follows:
-
-``` vue
-<template>
-  <div class="container">
-    <header>
-      <Content slot-key="header"/>
-    </header>
-    <main>
-      <Content/>
-    </main>
-    <footer>
-      <Content slot-key="footer"/>
-    </footer>
-  </div>
-</template>
-```
-
-If the markdown content of a page is like this:
-
-```md
-::: slot header
-# Here might be a page title
-:::
-
-- A Paragraph
-- Another Paragraph
-
-::: slot footer
-Here's some contact info
-:::
-```
-
-Then the rendered HTML of this page will be:
-
-```html
-<div class="container">
-  <header>
-    <div class="content header">
-      <h1>Here might be a page title</h1>
-    </div>
-  </header>
-  <main>
-    <div class="content default">
-      <ul>
-        <li>A Paragraph</li>
-        <li>Another Paragraph</li>
-      </ul>
-    </div>
-  </main>
-  <footer>
-    <div class="content footer">
-      <p>Here's some contact info</p>
-    </div>
-  </footer>
-</div>
-```
-
-Note that:
-1. Unlike the slot mechanism provided by [Vue](https://vuejs.org/v2/guide/components-slots.html) itself, each content distribution is wrapped in a `div` whose class is `content` with the name of the slot.
-2. Please ensure the uniqueness of the slot defined.
+عندما يقترب وقت الولادة من هذه الفترة، فإن الطبيب يقوم بالتعرف على وضع الجنين رأسه لأسفل للولادة الطبيعي أم في وضع آخر وأيضا التأكد من وزن الجنين، وطوله وضغط الأم وطلب بعض التحاليل المهمة قبل عملية الولادة، والتحدث مع الطبيب في طريقة الولادة التي تريدها السيدة الحامل سواء كانت ولادة طبيعية أو قيصرية.
