@@ -1,6 +1,6 @@
 ---
 title: اختبار
-date: 2019-5-6
+date: 2022-03-16 15:00:00 +0200
 tags:
 - blog
 author: mahmoud
