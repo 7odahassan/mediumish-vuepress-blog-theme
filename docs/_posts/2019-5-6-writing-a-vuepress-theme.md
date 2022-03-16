@@ -4,7 +4,7 @@ date: 2022-03-16 15:10:00 +0200
 tags:
 - blog
 author: mahmoud
-featuredimg: https://images.unsplash.com/photo-1573247318220-c2683ee87351?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+featuredimg: "/assets/img/تتتت.jpg"
 summary: تعرفي علي مشاكل المشيمة الملتصقة الاسباب والمخاطر وطرق العلاج
 
 ---

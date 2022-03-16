@@ -4,7 +4,7 @@ date: 2022-03-16T15:00:00.000+02:00
 tags:
 - blog
 author: mahmoud
-featuredimg: https://images.unsplash.com/photo-1573247318220-c2683ee87351?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+featuredimg: "/assets/img/chto-takoe-posled-kakovy-ego-funkcii-i-kak-on-vyglyadit-15.jpg"
 summary: تعرفي علي اوضاع المشيمة المختلفة في الحمل
 
 ---
