@@ -4,7 +4,7 @@ date: 2022-03-15 14:00:00 +0200
 tags:
 - blog
 author: mahmoud
-featuredimg: https://images.unsplash.com/photo-1568318526744-88e81ebaf78f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
+featuredimg: "/assets/img/1024x576.jpg"
 summary: من هو المعرض لخطر تطوير مشيمة أكارتا
 
 ---

@@ -4,7 +4,7 @@ date: 2022-03-14 00:00:00 +0200
 tags:
 - blog
 author: mahdmoud
-featuredimg: https://images.unsplash.com/photo-1501631957818-9f4b96ca2b0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
+featuredimg: "/assets/img/tbl_articles_article_23209_25201c5878b-53ae-4859-a04b-27ea69a0f164.jpg"
 summary: علاج المشيمة أكارتا
 
 ---

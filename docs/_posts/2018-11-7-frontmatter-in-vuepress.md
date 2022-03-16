@@ -1,112 +1,76 @@
 ---
-title: Magical nature, God is perfect
-date: 2018-11-7
-tags: 
-  - frontmatter
-  - vuepress
+title: 10 طرق سهلة لمعرفة ما إذا كان كسب الوزن أو الحمل
+date: 2022-03-16 14:00:00 +0200
+tags: []
 author: Sal
-featuredimg: https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=1350&q=80
-summary: I have travelled for so long that I can't even remember my own city.
+featuredimg: "/assets/img/علامات الحمل.png"
+summary: 10 طرق سهلة لمعرفة ما إذا كان كسب الوزن أو الحمل
 
 ---
+لمحة عامة
 
-Any markdown file that contains a YAML front matter block will be processed by [gray-matter](https://github.com/jonschlinkert/gray-matter). The front matter must be the first thing in the markdown file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
+هل لاحظت بعض التغيرات في جسمك مؤخرا ، وخاصة في الخصر ؟ إذا كنت نشيطا جنسيا ، قد تتساءل عما إذا كانت زيادة الوزن أو الحمل.
 
-```markdown
----
-title: Blogging Like a Hacker
-lang: en-US
----
-```
+ويمكن للمرأة أن تعاني من أعراض الحمل بطرق مختلفة. بعض العلامات والأعراض التي تأتي مع زيادة الوزن قد تعني أن هناك مشكلة صحية أخرى.
 
-Between these triple-dashed lines, you can set predefined variables (see [below](#predefined-variables) for a reference), or even create custom ones of your own. These variables will then be available to you to access using <code>[$frontmatter](./global-computed.md#frontmatter)</code> at the rest of the page, plus all custom and theming components.
+نمط الحيض الخاص بك
 
-::: tip
-Front matter variables are **optional** in VuePress.
-:::
+يقول الدكتور جيراردو بوستيلو ، وهو طبيب في كاليفورنيا ، أن لديه مرضى فوجئوا جدا لمعرفة أنهم كانوا حاملين. "كل شيء يتوقف حول أي نوع من نمط الحيض المرأة ،" يقول.
 
-## Alternative Front Matter Formats
+بالنسبة لبعض النساء ، دورة الحيض هي منتظمة جدا ويمكنهن معرفة شيء مختلف بمجرد تفويت فترة. والبعض الآخر لديه دورات غير منتظمة ، أي أن فترات لا يمكن التنبؤ بها. هم قَدْ لا يَشْكّونَ في أيّ شئِ إذا واحد لا يَجيءُ متى متوقّع.
 
-In addition, VuePress also supports JSON or [TOML](https://github.com/toml-lang/toml) front matter.
+وفقا لBustillo ، النساء زيادة الوزن أقل عرضة للشعور حركة الجنين. وإذا كانت المرأة لا تشعر وكأنها تبدو مختلفة في المرآة ، وقالت انها قد لا تلاحظ الوزن الإضافي.
 
-JSON front matter needs to start and end in curly braces:
+طريقة واحدة لتصفية أي سوء فهم هو اتخاذ اختبار الحمل المنزلي. ولكن إذا كنت غير مستعد لتلك الخطوة ، هناك علامات جسدية أخرى التي يمكن أن تكون موجودة أيضا إذا كنت حاملا.
 
-```
----
-{
-  "title": "Blogging Like a Hacker",
-  "lang": "en-US"
-}
----
-```
+أعراض الحمل: 10 علامات مبكرة على أنك قد تكون حاملاً
 
-TOML front matter needs to be explicitly marked as TOML:
+1\. الغثيان
 
-```
----toml
-title = "Blogging Like a Hacker"
-lang = "en-US"
----
-```
+وكثيرا ما تكون هذه واحدة من أولى علامات الحمل. الغثيان والتقيؤ ، المعروف أيضا باسم مرض الصباح ، يميل إلى البدء في أي مكان من 2 إلى 8 أسابيع بعد الحمل.
 
+الأعراض يمكن أن تختلف. بعض النساء لا يعانون من أي مرض الصباح ، في حين أن البعض الآخر لديهم نوبات شديدة من الغثيان. بعض النساء تتقيأ فقط عندما تكون حامل.
 
-## Predefined Variables
+2\. الإمساك
 
-### title
+البروجستيرون ، هرمون الحمل ، يجعل الأمعاء تتحرك بسرعة أقل. ونتيجة لذلك ، الامساك شائع جدا.
 
-- Type: `string`
-- Default: `h1_title || siteConfig.title`
+المرأة التي قد تكون منتظمة قبل الحمل قد تبدأ تواجه مشكلة الذهاب إلى الحمام.
 
-Title of current page.
+3\. التبول المتكرر
 
-### lang
+إذا وجدت نفسك تركض إلى الحمام أكثر من المعتاد ، هذا يمكن أن يكون علامة على الحمل. قد تشعر بالعطش أيضاً ولديك الرغبة في شرب المزيد من السوائل أكثر من ذي قبل.
 
-- Type: `string`
-- Default: `en-US`
+4\. التعب
 
-Language of current page.
+الشعور بالتعب هو أحد الأعراض الشائعة للحمل المبكر. مع تغير الهرمونات ، قد تجد نفسك ترغب في القيلولة في كثير من الأحيان.
 
-### description
+5\. البقع
 
-- Type: `string`
-- Default: `siteConfig.description`
+بعض البقع المهبلية حول الأسابيع 6 إلى 9 ليست غير شائعة. إذا حدث النزيف بعد 6 إلى 12 يوم من الحمل ، قد يكون نزيف زرع. ويمكن أن يحدث ذلك أيضا مع بعض التشنج الطفيف.
 
-Description of current page.
+النساء غير النشطات جنسيا يمكن أن تتخلى عن هذا كفترة غير منتظمة.
 
-### layout
+6\. الصداع
 
-- Type: `string`
-- Default: `Layout`
+إذا أنت لست شخص ما الذي عادة ما يكون لديه الصداع ، يمكن أن يكون علامة على الحمل. يمكن أن يسبب ارتفاع الهرمونات الصداع لبعض النساء الحوامل. تعلم المزيد عن الصداع الهرموني.
 
-Set the layout component of the current page.
+7\. خلفي
 
-### permalink
+الألم في أسفل الظهر قد يكون أيضا علامة كنت تحمل الطفل. من الشائع أن تعاني المرأة من الإعياء في ظهرها السفلي طوال فترة الحمل.
 
-- Type: `string`
-- Default: `siteConfig.permalink`
+8\. الدوار
 
-Refer to: [Permalinks](./permalinks.md).
+الشعور بالدوار أو بالدوار إذا وقفت بسرعة كبيرة هو تجربة أخرى شائعة للحوامل. خلال الحمل تتسع الأوعية الدموية ، مما يسبب انخفاض في ضغط الدم.
 
-### metaTitle
+9\. اشتهاء الثلج
 
-- Type: `string`
-- Default: <code>\`${page.title} | ${siteConfig.title}\`</code>
+فقر الدم شائع في النساء. ولكن عندما تصبح حاملا ، يتم توسيع حجم دمها ، حتى تصبح أكثر فقر الدم.
 
-Override the default meta title.
+غالبا ما يرتبط التوق إلى الجليد ، وتحديدا الحاجة إلى مضغ الجليد ، بفقر الدم.
 
-### meta
+10\. تغيرات الحلمة
 
-- Type: `array`
-- Default: `undefined`
+الجلد حول حلماتك قد تبدأ في الحصول على أكثر قتامة إذا كنت حاملا. وسوف تحصل بعض النساء أيضاً على إفراغ من الحلمات (إنتاج الحليب في وقت مبكر). وهذا يمكن أن يحدث في وقت مبكر من الحمل. انها سوف تكون حليبية في اللون.
 
-Specify extra meta tags to be injected:
-
-``` yaml
----
-meta:
-  - name: description
-    content: hello
-  - name: keywords
-    content: super duper SEO
----
-```
+إذا كان التفريغ ملون أو دموي ، يمكن أن تشير إلى مشاكل صحية أخرى ، مثل الورم. في هذه الحالة ، يجب أن تخبر طبيبك على الفور.
